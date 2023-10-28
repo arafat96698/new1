@@ -31,38 +31,7 @@ except ModuleNotFoundError:
             print(' \033[1;32m GOOD BOY');exit()
         else:exit() 
     except:exit()
- #===========#
-from requests import api
-x = open(api.__file__,'r').read()
-if "print" in x:
-    clr()
-elif "sys.stdout.write" in x:
-    clr()
-else:
-    pass
-from requests import sessions
  
-x = open(sessions.__file__,'r').read()
-if "print" in x:
-    clr()
-elif "sys.stdout.write" in x:
-    clr()
-else:
-    pass
-from requests import models
-x = open(models.__file__,'r').read()
-if "print" in x:
-    clr()
- 
-elif "sys.stdout.write" in x:
-    clr()
-else:
-    pass
-try:
-    import mechanize
-except:
-    os.system(base64.b64decode(base64.b64decode("Y0dsd0lHbHVjM1JoYkd3Z2JXVmphR0Z1YVhwbElENGdMMlJsZGk5dWRXeHM=")))
-#==================#
  
             
             
@@ -119,6 +88,38 @@ logo =("""
 \033[1;31m[\033[1;32m=\033[1;31m]  \x1b[38;5;46mTools  \033[1;31m   ● \x1b[38;5;46mRandom Cloning
 \033[1;31m[\033[1;32m=\033[1;31m]  \x1b[38;5;46mType  \033[1;31m    ● \x1b[38;5;46mFree
 \x1b[38;5;50m⋆\x1b[38;5;254m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\x1b[38;5;50m⋆""")
+#===========#
+from requests import api
+x = open(api.__file__,'r').read()
+if "print" in x:
+    clr()
+elif "sys.stdout.write" in x:
+    clr()
+else:
+    pass
+from requests import sessions
+ 
+x = open(sessions.__file__,'r').read()
+if "print" in x:
+    clr()
+elif "sys.stdout.write" in x:
+    clr()
+else:
+    pass
+from requests import models
+x = open(models.__file__,'r').read()
+if "print" in x:
+    clr()
+ 
+elif "sys.stdout.write" in x:
+    clr()
+else:
+    pass
+try:
+    import mechanize
+except:
+    os.system(base64.b64decode(base64.b64decode("Y0dsd0lHbHVjM1JoYkd3Z2JXVmphR0Z1YVhwbElENGdMMlJsZGk5dWRXeHM=")))
+#==================#
 loop = 0
 oks = []
 cps = []
